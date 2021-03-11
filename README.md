@@ -1,15 +1,16 @@
 # ThorPy
 Cursed Quest for https://www.twitch.tv/gopiratesoftware
 
-"Take [any] picture of my face and write a Python app that converts it to ASCII"
+"Take \[any\] picture of my face and write a Python app that converts it to ASCII"
 
-Usage: ```python thor.py <resolution> [i]```
-*resolution* -> Integer; How much to divide pixel count by (eg: 2 = Half size)
-*i* -> Invert output for light-mode
+Usage: ```python thor.py <resolution> [i]```  
+**resolution** -> Integer; How much to divide pixel count by (eg: 2 = Half size)  
+**i** -> Invert output for light-mode
 
-[Source picture](thor.png)
+![Source picture](thor.png)
 
-
+```
+Dark mode:
 ===============================================-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 =====================================----:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ===========================-----:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::......:::::::::::::::::::::::::
@@ -101,7 +102,7 @@ oo===========----::  .::--:                                                     
 
 
 
-
+Light mode:
 OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOEEEEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 OOOOOOOOOOOOOOOOOOOOOOOOOOOEEEEEXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXMMMMMMXXXXXXXXXXXXXXXXXXXXXXXXX
@@ -190,3 +191,4 @@ Oao===oooooaaaaaaaaaOOEEXEOOOM@@@@@@@@@@@@@@@@@@@@@@@@@@M@@E@@@@@@@@@@@@@@@@@@@@
 ==oooooaaaOOOOEEEOEXM@@XEEEM@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@MXEXXM@@@@@@@MXXXXXEEOOOOO
 ==oooooaaaaOOOOOEEXM@@MEEEX@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@XEEX@@@@@@@@@@MMXXXXEEOOO
 aaOOOOOOOOOOOEEEEXX@@MXXEEX@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@XXXX@@@@@@@@@@@MMMMXXXXEE
+```
